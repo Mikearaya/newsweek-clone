@@ -2,34 +2,54 @@
   box-sizing: border-box;
 }
 
-section h2 {
+section > h2 {
   font: bold 16px/16px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   color: #9a9a9a;
+  padding-top: 2em;
+}
+
+.tag-bg-blue {
+  background-color: #e8f1f5;
 }
 
 .nw-blue {
   color: #3581f4;
 }
 
+.no-border {
+  border: none;
+}
+
 .nw-red {
   color: #f72210;
+}
+
+.nw-black {
+  color: black;
 }
 
 img {
   width: 100%;
 }
 
+figcaption.small-caption {
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+
 article figure {
   position: relative;
+}
+
+article h3.smaller {
+  font-size: 1rem;
 }
 
 figure figcaption {
   position: absolute;
   bottom: 0;
   padding: 0 1em;
-  text-transform: uppercase;
-  background: white;
   font-weight: 900;
 }
 
@@ -38,6 +58,10 @@ a {
 }
 
 .no-underline {
+  text-decoration: none;
+}
+
+.no-underline-hover:hover {
   text-decoration: none;
 }
 
