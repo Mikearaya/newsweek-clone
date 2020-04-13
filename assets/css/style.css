@@ -82,6 +82,19 @@ article {
   border: 1px solid #e6e6e6;
 }
 
+article.left-thumbnail {
+  border: 0;
+  border-top: 1px solid #e6e6e6;
+  padding: 1em 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+article.left-thumbnail > figure {
+  float: left;
+  width: 95px;
+  margin-right: 1em;
+}
+
 nav.navbar {
   background-color: #f72210 !important;
   min-height: 10em;
