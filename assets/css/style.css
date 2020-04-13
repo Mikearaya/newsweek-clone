@@ -2,6 +2,62 @@
   box-sizing: border-box;
 }
 
+section h2 {
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  color: #9a9a9a;
+}
+
+.nw-blue {
+  color: #3581f4;
+}
+
+.nw-red {
+  color: #f72210;
+}
+
+img {
+  width: 100%;
+}
+
+article figure {
+  position: relative;
+}
+
+figure figcaption {
+  position: absolute;
+  bottom: 0;
+  padding: 0 1em;
+  text-transform: uppercase;
+  background: white;
+  font-weight: 900;
+}
+
+a {
+  color: #000;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.hover-underline-red:hover {
+  color: #000;
+  text-decoration: underline #f72210;
+}
+
+a.hover-red:hover {
+  color: #f72210;
+}
+
+article p {
+  font-size: 0.9rem;
+}
+
+article {
+  border: 1px solid #e6e6e6;
+}
+
 nav.navbar {
   background-color: #f72210 !important;
   min-height: 10em;
