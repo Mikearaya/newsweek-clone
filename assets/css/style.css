@@ -9,6 +9,10 @@ section > h2 {
   padding-top: 2em;
 }
 
+.tag-bg-red {
+  background-color: #f72210;
+}
+
 .tag-bg-blue {
   background-color: #e8f1f5;
 }
@@ -29,8 +33,14 @@ section > h2 {
   color: black;
 }
 
+.tag {
+  padding: 0.5em;
+  font-weight: 700;
+}
+
 img {
   width: 100%;
+  max-height: 336px;
 }
 
 figcaption.small-caption {
@@ -40,6 +50,7 @@ figcaption.small-caption {
 
 article figure {
   position: relative;
+  margin-bottom: 1em;
 }
 
 article h3.smaller {
