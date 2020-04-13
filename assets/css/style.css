@@ -95,6 +95,19 @@ article.left-thumbnail > figure {
   margin-right: 1em;
 }
 
+article.left-thumbnail.avator > figure {
+  width: 75px;
+}
+
+article.left-thumbnail.avator img {
+  border-radius: 180%;
+}
+
+article.left-thumbnail.avator span {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
 nav.navbar {
   background-color: #f72210 !important;
   min-height: 10em;
@@ -135,7 +148,7 @@ span.poligon {
   width: 142px;
 }
 
-footer img {
+footer#main-footer img {
   width: 50%;
 }
 
