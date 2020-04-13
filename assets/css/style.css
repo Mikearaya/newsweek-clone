@@ -1,3 +1,43 @@
 * {
   box-sizing: border-box;
 }
+
+nav.navbar {
+  background-color: #f72210 !important;
+  min-height: 10em;
+}
+
+.bottom-nav {
+  position: absolute;
+  margin: 0;
+  min-width: 100%;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  background: #fff;
+  padding: 1em 0 1em 1em;
+}
+
+.bottom-nav li {
+  float: left;
+  flex-grow: 1;
+  position: relative;
+  border-left: 1px solid #d9d9d9;
+  text-align: center;
+}
+
+input.no-border-outline {
+  outline: none;
+  border: 0;
+  width: 4em;
+}
+
+span.poligon {
+  background: linear-gradient(to left bottom, #f72210 10%, #fff);
+  position: absolute;
+  right: 0;
+  top: -16px;
+  display: block;
+  height: 20px;
+  width: 142px;
+}
