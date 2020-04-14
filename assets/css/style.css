@@ -32,7 +32,7 @@ section > h2 {
 }
 
 .no-border {
-  border: none;
+  border: none !important;
 }
 
 .nw-red {
@@ -154,12 +154,34 @@ article.left-thumbnail > figure {
   margin-right: 1em;
 }
 
-article.left-thumbnail.avator > figure {
+img.avator {
+  border-radius: 180%;
   width: 75px;
 }
 
-article.left-thumbnail.avator img {
+.vs-circle {
+  border: none;
+  background: black;
+  color: white;
+  width: 50px;
+  padding: 1em 0;
+  text-align: center;
   border-radius: 180%;
+  margin-bottom: 1em;
+}
+
+.debate > div {
+  border-top: 1px double grey;
+  border-bottom: 1px double grey;
+}
+
+div.reporter {
+  border-top: 5px double #9a9a9a;
+}
+
+.reporter .avator {
+  position: relative;
+  top: -2em;
 }
 
 article.left-thumbnail.avator span {
@@ -255,18 +277,31 @@ footer > div:first-of-type {
   padding: 2em;
 }
 
+.top-nav {
+  position: sticky;
+  top: 0;
+}
+
+.debate > article:first-of-type {
+  border-top: 5px solid #f00;
+}
+
+.debate > article:last-of-type {
+  border-top: 5px solid #00f;
+}
+
 @media screen and (min-width: 991px) {
   .bottom-nav {
     display: flex;
   }
 
   #header-logo {
-    width: 5em;
+    width: 40em;
   }
 
   .navbar {
     padding: 0 1em;
-    min-height: 0;
+    min-height: 8em;
   }
 
   .top-nav {
