@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 section > h2 {
@@ -10,7 +12,15 @@ section > h2 {
 }
 
 .tag-bg-red {
-  background-color: #f72210;
+  background-color: #ff0500;
+}
+
+.bt-0 {
+  border-top: none !important;
+}
+
+.bb-0 {
+  border-bottom: none !important;
 }
 
 .tag-bg-blue {
@@ -26,16 +36,26 @@ section > h2 {
 }
 
 .nw-red {
-  color: #f72210;
+  color: #ff0500;
 }
 
 .nw-black {
-  color: black;
+  color: #000;
 }
 
 .tag {
   padding: 0.5em;
   font-weight: 700;
+}
+
+.separator {
+  width: 100%;
+  border: 1px solid #e6e6e6;
+  margin: 2em 0;
+}
+
+section h4 {
+  padding-left: 0.5em;
 }
 
 img {
@@ -46,22 +66,35 @@ img {
 figcaption.small-caption {
   font-size: 0.7rem;
   font-weight: 300;
+  line-height: 1;
 }
 
 article figure {
   position: relative;
-  margin-bottom: 1em;
+}
+
+article h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
 }
 
 article h3.smaller {
   font-size: 1rem;
 }
 
+article h3.normal {
+  font: 1.4rem "Lora", serif;
+  font-weight: 400;
+}
+
 figure figcaption {
   position: absolute;
   bottom: 0;
-  padding: 0 1em;
+  padding: 0 1em 0.5em;
+  line-height: 1.5;
   font-weight: 900;
+  font-size: 1.1rem;
 }
 
 a {
@@ -72,17 +105,21 @@ a {
   text-decoration: none;
 }
 
+.hover-balck:hover {
+  color: #000;
+}
+
 .no-underline-hover:hover {
   text-decoration: none;
 }
 
 .hover-underline-red:hover {
   color: #000;
-  text-decoration: underline #f72210;
+  text-decoration: underline #ff0500;
 }
 
 a.hover-red:hover {
-  color: #f72210;
+  color: #ff0500;
 }
 
 article p {
@@ -117,11 +154,16 @@ article.left-thumbnail.avator img {
 article.left-thumbnail.avator span {
   font-size: 0.9rem;
   font-weight: 700;
+  color: #676767;
 }
 
 nav.navbar {
-  background-color: #f72210 !important;
+  background-color: #ff0500 !important;
   min-height: 10em;
+}
+
+#header-logo {
+  width: 30%;
 }
 
 .bottom-nav {
@@ -150,13 +192,15 @@ input.no-border-outline {
 }
 
 span.poligon {
-  background: linear-gradient(to left bottom, #f72210 10%, #fff);
   position: absolute;
   right: 0;
   top: -16px;
   display: block;
   height: 20px;
   width: 142px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 20px solid #f72210;
 }
 
 footer#main-footer img {
@@ -172,6 +216,6 @@ footer#main-footer ul {
   flex-wrap: wrap;
 }
 
-footer#main-footer .footer-info-links li {
+.footer-info-links li {
   flex-grow: 1;
 }
