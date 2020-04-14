@@ -114,8 +114,8 @@ a {
   text-decoration: none;
 }
 
-.hover-balck:hover {
-  color: #000;
+a.hover-balck:hover {
+  color: #000 !important;
 }
 
 .no-underline-hover:hover {
@@ -218,17 +218,24 @@ footer#main-footer img {
   width: 50%;
 }
 
-footer .social-container {
-  display: flex;
+.edition-links,
+.footer-info-links {
+  padding: 0.5em 0;
 }
 
-footer#main-footer ul {
-  display: flex;
-  flex-wrap: wrap;
+footer#main-footer li {
+  float: left;
+  margin: 0 0.8em;
 }
 
-.footer-info-links li {
-  flex-grow: 1;
+footer > div:first-of-type {
+  border-bottom: 1px solid black;
+  padding-bottom: 0.4em;
+}
+
+.social-links {
+  align-self: flex-end;
+  font-size: 1.3rem;
 }
 
 @media screen and (max-width: 991px) {
