@@ -54,6 +54,15 @@ section > h2 {
   margin: 2em 0;
 }
 
+.btn-rectangle {
+  border-radius: 0;
+  padding: 0 1em;
+}
+
+.text-bolder {
+  font-weight: 700;
+}
+
 section h4 {
   padding-left: 0.5em;
 }
@@ -159,11 +168,13 @@ article.left-thumbnail.avator span {
 
 nav.navbar {
   background-color: #ff0500 !important;
-  min-height: 10em;
+  line-height: 1;
 }
 
 #header-logo {
-  width: 30%;
+  width: 40%;
+  position: relative;
+  top: -1em;
 }
 
 .bottom-nav {
@@ -174,7 +185,7 @@ nav.navbar {
   bottom: 0;
   display: flex;
   background: #fff;
-  padding: 1em 0 1em 1em;
+  line-height: 1;
 }
 
 .bottom-nav li {
@@ -197,7 +208,7 @@ span.poligon {
   top: -16px;
   display: block;
   height: 20px;
-  width: 142px;
+  width: 5em;
   background-color: #f72210;
   border-left: 12px solid #fff;
   border-top: 20px solid #f72210;
@@ -218,4 +229,23 @@ footer#main-footer ul {
 
 .footer-info-links li {
   flex-grow: 1;
+}
+
+@media screen and (max-width: 991px) {
+  .bottom-nav {
+    display: none;
+  }
+
+  #header-logo {
+    width: 5em;
+  }
+
+  .navbar {
+    padding: 0 1em;
+    min-height: 0;
+  }
+
+  .top-nav {
+    width: 100%;
+  }
 }

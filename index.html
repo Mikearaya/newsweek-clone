@@ -19,54 +19,49 @@
     ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#"></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarTogglerDemo02"
-        aria-controls="navbarTogglerDemo02"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <nav class="navbar d-flex">
+      <div class="d-flex justify-content-between align-items-center top-nav">
+        <div
+          class="d-flex flex-column mr-0 mt-2 mt-lg-0 order-md-first align-self-start"
+        >
+          <div>
+            32°
+            <span class="d-none d-md-block">Addis Ababa, ET > </span>
+          </div>
+          <div class="text-white d-none d-md-block">Mon, Apr 13, 2020</div>
+        </div>
 
-      <div
-        class="collapse navbar-collapse d-flex justify-content-around align-items-center"
-        id="navbarTogglerDemo02"
-      >
-        <ul class="navbar-nav mr-0 mt-2 mt-lg-0">
-          <li class="text-white">Mon, Apr 13, 2020</li>
-        </ul>
         <img
           src="./assets/images/header-logo.svg"
           alt="logo"
           id="header-logo"
+          class="order-first order-md-1"
         />
-        <form class="form-inline my-2 my-lg-0">
-          <a href="#" class="text-white">
+        <form class="form-inline my-2 my-lg-0 order-2">
+          <a href="#" class="text-white text-uppercase text-bolder">
             SIGN IN
           </a>
-          <button class="btn bg-white my-2 my-sm-0" type="submit">
-            Search
+          <button
+            type="button"
+            class="btn nw-red bg-white text-uppercase btn-rectangle text-bolder ml-2"
+          >
+            Subscribe >
           </button>
         </form>
       </div>
 
-      <ul class="bottom-nav text center">
-        <li class="text center">U.S</li>
-        <li>World</li>
-        <li>Business</li>
-        <li>Tech & Science</li>
-        <li>Culture</li>
-        <li>Newsgeek</li>
-        <li>Sports</li>
-        <li>Health</li>
-        <li>The Debate</li>
-        <li>Vantage</li>
-        <li>Weather</li>
+      <ul class="bottom-nav text center pt-3">
+        <li class="hover-red">U.S</li>
+        <li class="hover-red">World</li>
+        <li class="hover-red">Business</li>
+        <li class="hover-red">Tech & Science</li>
+        <li class="hover-red">Culture</li>
+        <li class="hover-red">Newsgeek</li>
+        <li class="hover-red">Sports</li>
+        <li class="hover-red">Health</li>
+        <li class="hover-red">The Debate</li>
+        <li class="hover-red">Vantage</li>
+        <li class="hover-red">Weather</li>
         <li>
           <input
             type="text"
