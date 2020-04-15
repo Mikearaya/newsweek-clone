@@ -12,7 +12,7 @@ Clone of [https://newsweek.com/ home page](http://archive.vn/JVxnj) for my seven
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Mikearaya/newsweek-clone/0f302cc280198edbfb5d05f8c99ffebe0ae6c936/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Mikearaya/newsweek-clone/38af013b9bfc90f81fc50e4033c1bc6a07a53445/index.html)
 
 ## Getting Started
 
