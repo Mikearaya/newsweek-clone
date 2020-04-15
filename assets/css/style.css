@@ -70,7 +70,7 @@ section > h4:first-of-type {
 }
 
 .nw-red {
-  color: #ff0500;
+  color: #ff0500 !important;
 }
 
 .nw-black {
@@ -283,7 +283,6 @@ span.poligon {
 
 footer#main-footer li {
   float: left;
-  margin: 0 0.8em;
 }
 
 footer > div:first-of-type {
@@ -314,6 +313,10 @@ footer > div:first-of-type {
 
 .debate > article:last-of-type {
   border-top: 5px solid #00f;
+}
+
+.footer-logo {
+  width: 50%;
 }
 
 @media screen and (min-width: 991px) {
