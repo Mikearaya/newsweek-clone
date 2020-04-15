@@ -6,6 +6,7 @@
 
 body {
   position: absolute;
+  overflow-x: hidden;
 }
 
 .fa-bars {
@@ -319,11 +320,16 @@ footer > div:first-of-type {
 @media screen and (min-width: 991px) {
   #header-logo {
     width: 40%;
+    position: relative;
+  }
+
+  .top-nav {
+    height: 5em;
   }
 
   .navigation {
     padding: 0 1em;
-    min-height: 8em;
+    min-height: 7em;
   }
 
   .subscription img,
