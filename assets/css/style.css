@@ -4,6 +4,10 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
+body {
+  position: absolute;
+}
+
 .fa-bars {
   font-size: 2rem;
   color: #fb9a94;
@@ -70,7 +74,7 @@ section > h2 {
 
 .btn-rectangle {
   border-radius: 0;
-  padding: 0.5 1em;
+  padding: 0.5em;
   width: 7em;
   border: none;
 }
@@ -214,8 +218,7 @@ nav.navbar {
 }
 
 #header-logo {
-  width: 40%;
-  position: relative;
+  width: 20%;
 }
 
 .bottom-nav {
