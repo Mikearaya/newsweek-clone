@@ -4,6 +4,10 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
+.fa-bars {
+  font-size: 2rem;
+}
+
 section > h2 {
   font: bold 16px/16px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
@@ -35,6 +39,15 @@ section > h2 {
   border: none !important;
 }
 
+.separator-img {
+  width: 2%;
+  background-color: #ff0500;
+}
+
+.separator-img + span {
+  font-weight: 800;
+}
+
 .nw-red {
   color: #ff0500;
 }
@@ -57,7 +70,7 @@ section > h2 {
 .btn-rectangle {
   border-radius: 0;
   padding: 0.5 1em;
-  width: 9em;
+  width: 7em;
   border: none;
 }
 
@@ -193,12 +206,15 @@ article.left-thumbnail.avator span {
 nav.navbar {
   background-color: #ff0500 !important;
   line-height: 1;
+  padding: 0 1em !important;
+  position: sticky;
+  top: 0;
+  z-index: 999999999;
 }
 
 #header-logo {
   width: 40%;
   position: relative;
-  top: -1em;
 }
 
 .bottom-nav {
@@ -295,8 +311,12 @@ footer > div:first-of-type {
     display: flex;
   }
 
+  nav.navbar {
+    position: relative;
+  }
+
   #header-logo {
-    width: 40em;
+    width: 40%;
   }
 
   .navbar {
@@ -322,5 +342,9 @@ footer > div:first-of-type {
 
   .sign-up img {
     width: 40%;
+  }
+
+  .btn-rectangle {
+    width: 9em;
   }
 }
