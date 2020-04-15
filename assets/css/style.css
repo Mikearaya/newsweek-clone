@@ -265,10 +265,6 @@ span.poligon {
   max-width: 200px;
 }
 
-footer#main-footer img {
-  width: 50%;
-}
-
 .edition-links,
 .footer-info-links {
   padding: 0.5em 0;
@@ -285,7 +281,6 @@ footer > div:first-of-type {
 }
 
 .social-links {
-  align-self: flex-end;
   font-size: 1.3rem;
 }
 
@@ -334,5 +329,9 @@ footer > div:first-of-type {
 
   .btn-rectangle {
     width: 9em;
+  }
+
+  footer#main-footer img {
+    width: 50%;
   }
 }
