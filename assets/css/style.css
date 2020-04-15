@@ -226,6 +226,7 @@ nav.navbar {
   bottom: 0;
   background: #fff;
   line-height: 1;
+  padding: 0 4em 0 0;
 }
 
 .bottom-nav li {
@@ -245,7 +246,7 @@ input.no-border-outline {
 span.poligon {
   position: absolute;
   right: 0;
-  top: -16px;
+  bottom: 18px;
   display: block;
   height: 20px;
   width: 5em;
