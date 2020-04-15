@@ -135,7 +135,7 @@ a {
 }
 
 a.hover-balck:hover {
-  color: #000 !important;
+  color: #000;
 }
 
 .no-underline-hover:hover {
@@ -208,10 +208,10 @@ article.left-thumbnail.avator span {
   color: #676767;
 }
 
-nav.navbar {
-  background-color: #ff0500 !important;
+nav.navigation {
+  background-color: #ff0500;
   line-height: 1;
-  padding: 0 1em !important;
+  padding: 0 1em;
   position: sticky;
   top: 0;
   z-index: 999999999;
@@ -257,6 +257,12 @@ span.poligon {
   background-color: #f72210;
   border-left: 12px solid #fff;
   border-top: 20px solid #f72210;
+}
+
+.subscription img,
+.sign-up img {
+  height: 200px;
+  max-width: 200px;
 }
 
 footer#main-footer img {
@@ -312,41 +318,18 @@ footer > div:first-of-type {
 }
 
 @media screen and (min-width: 991px) {
-  .bottom-nav {
-    display: flex;
-  }
-
-  nav.navbar {
-    position: relative;
-  }
-
   #header-logo {
     width: 40%;
   }
 
-  .navbar {
+  .navigation {
     padding: 0 1em;
     min-height: 8em;
   }
 
-  .top-nav {
-    width: 100%;
-  }
-
-  .subscription {
-    flex-direction: row;
-  }
-
-  .sign-up {
-    flex-direction: row;
-  }
-
-  .subscription img {
-    width: 50%;
-  }
-
+  .subscription img,
   .sign-up img {
-    width: 40%;
+    width: 50%;
   }
 
   .btn-rectangle {
