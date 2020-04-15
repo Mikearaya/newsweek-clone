@@ -285,14 +285,7 @@ footer > div:first-of-type {
 }
 
 .subscription {
-  display: flex;
   background-color: #f4f5f6;
-  flex-direction: column;
-}
-
-.sign-up {
-  display: flex;
-  flex-direction: column;
 }
 
 .subsciption-section {
