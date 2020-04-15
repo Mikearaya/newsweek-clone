@@ -91,7 +91,6 @@ section > h4:first-of-type {
 .btn-rectangle {
   border-radius: 0;
   padding: 0.5em;
-  width: 7em;
   border: none;
 }
 
@@ -185,7 +184,7 @@ article.left-thumbnail > figure {
 }
 
 img.avator {
-  border-radius: 180%;
+  border-radius: 50%;
   width: 75px;
 }
 
@@ -335,10 +334,6 @@ footer > div:first-of-type {
   .subscription img,
   .sign-up img {
     width: 50%;
-  }
-
-  .btn-rectangle {
-    width: 9em;
   }
 
   footer#main-footer img {
